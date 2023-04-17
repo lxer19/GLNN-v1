@@ -1,0 +1,968 @@
+Apr16 20-43-59: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-43-59: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-43-59: Total 2110 nodes.
+Apr16 20-43-59: Total 9446 edges.
+Apr16 20-43-59: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.001, 'dropout_ratio': 0.0, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-44-10: Best valid model at epoch:  199, score_val: 0.7278, score_test: 0.7591
+Apr16 20-44-10: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.0
+Apr16 20-44-10: # params 237446
+Apr16 20-44-43: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-44-43: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-44-43: Total 2110 nodes.
+Apr16 20-44-43: Total 9446 edges.
+Apr16 20-44-43: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.001, 'dropout_ratio': 0.1, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-44-47: Best valid model at epoch:  22, score_val: 0.7278, score_test: 0.7641
+Apr16 20-44-47: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.1
+Apr16 20-44-47: # params 237446
+Apr16 20-45-25: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-45-25: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-45-25: Total 2110 nodes.
+Apr16 20-45-25: Total 9446 edges.
+Apr16 20-45-25: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.001, 'dropout_ratio': 0.5, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-45-34: Best valid model at epoch:  109, score_val: 0.7278, score_test: 0.7652
+Apr16 20-45-34: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.5
+Apr16 20-45-34: # params 237446
+Apr16 20-46-07: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-46-07: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-46-07: Total 2110 nodes.
+Apr16 20-46-07: Total 9446 edges.
+Apr16 20-46-08: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.001, 'dropout_ratio': 0.8, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-46-12: Best valid model at epoch:  37, score_val: 0.7333, score_test: 0.7746
+Apr16 20-46-12: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr16 20-46-12: # params 237446
+Apr16 20-46-40: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-46-40: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-46-41: Total 2110 nodes.
+Apr16 20-46-41: Total 9446 edges.
+Apr16 20-46-41: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.001, 'dropout_ratio': 0.94, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-46-45: Best valid model at epoch:  20, score_val: 0.6778, score_test: 0.7785
+Apr16 20-46-45: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.94
+Apr16 20-46-45: # params 237446
+Apr16 20-47-16: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-47-16: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-47-16: Total 2110 nodes.
+Apr16 20-47-16: Total 9446 edges.
+Apr16 20-47-16: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.002, 'dropout_ratio': 0.0, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-47-21: Best valid model at epoch:  31, score_val: 0.7278, score_test: 0.7630
+Apr16 20-47-21: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.0
+Apr16 20-47-21: # params 237446
+Apr16 20-47-57: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-47-57: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-47-57: Total 2110 nodes.
+Apr16 20-47-57: Total 9446 edges.
+Apr16 20-47-57: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.002, 'dropout_ratio': 0.1, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-48-01: Best valid model at epoch:  25, score_val: 0.7333, score_test: 0.7674
+Apr16 20-48-01: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.1
+Apr16 20-48-01: # params 237446
+Apr16 20-48-34: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-48-34: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-48-34: Total 2110 nodes.
+Apr16 20-48-34: Total 9446 edges.
+Apr16 20-48-34: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.002, 'dropout_ratio': 0.5, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-48-39: Best valid model at epoch:  53, score_val: 0.7333, score_test: 0.7652
+Apr16 20-48-39: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.5
+Apr16 20-48-39: # params 237446
+Apr16 20-49-10: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-49-10: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-49-10: Total 2110 nodes.
+Apr16 20-49-10: Total 9446 edges.
+Apr16 20-49-10: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.002, 'dropout_ratio': 0.8, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-49-21: Best valid model at epoch:  159, score_val: 0.7333, score_test: 0.7746
+Apr16 20-49-21: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr16 20-49-21: # params 237446
+Apr16 20-49-52: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-49-52: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-49-52: Total 2110 nodes.
+Apr16 20-49-52: Total 9446 edges.
+Apr16 20-49-52: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.002, 'dropout_ratio': 0.94, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-49-56: Best valid model at epoch:  14, score_val: 0.6778, score_test: 0.7757
+Apr16 20-49-56: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.94
+Apr16 20-49-56: # params 237446
+Apr16 20-50-25: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-50-25: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-50-25: Total 2110 nodes.
+Apr16 20-50-25: Total 9446 edges.
+Apr16 20-50-26: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.001, 'dropout_ratio': 0.0, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-50-36: Best valid model at epoch:  153, score_val: 0.7333, score_test: 0.7613
+Apr16 20-50-36: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.0
+Apr16 20-50-36: # params 237446
+Apr16 20-51-04: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-51-04: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-51-04: Total 2110 nodes.
+Apr16 20-51-04: Total 9446 edges.
+Apr16 20-51-04: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.001, 'dropout_ratio': 0.1, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-51-12: Best valid model at epoch:  100, score_val: 0.7389, score_test: 0.7602
+Apr16 20-51-12: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.1
+Apr16 20-51-12: # params 237446
+Apr16 20-51-49: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-51-49: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-51-49: Total 2110 nodes.
+Apr16 20-51-49: Total 9446 edges.
+Apr16 20-51-49: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.001, 'dropout_ratio': 0.5, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-52-00: Best valid model at epoch:  182, score_val: 0.7333, score_test: 0.7630
+Apr16 20-52-00: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.5
+Apr16 20-52-00: # params 237446
+Apr16 20-52-31: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-52-31: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-52-31: Total 2110 nodes.
+Apr16 20-52-31: Total 9446 edges.
+Apr16 20-52-31: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.001, 'dropout_ratio': 0.8, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-52-36: Best valid model at epoch:  36, score_val: 0.7333, score_test: 0.7751
+Apr16 20-52-36: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr16 20-52-36: # params 237446
+Apr16 20-53-05: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-53-05: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-53-05: Total 2110 nodes.
+Apr16 20-53-05: Total 9446 edges.
+Apr16 20-53-05: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.001, 'dropout_ratio': 0.94, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-53-09: Best valid model at epoch:  17, score_val: 0.6778, score_test: 0.7851
+Apr16 20-53-09: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.94
+Apr16 20-53-09: # params 237446
+Apr16 20-53-29: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-53-29: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-53-30: Total 2110 nodes.
+Apr16 20-53-30: Total 9446 edges.
+Apr16 20-53-30: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.002, 'dropout_ratio': 0.0, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-53-33: Best valid model at epoch:  12, score_val: 0.7333, score_test: 0.7674
+Apr16 20-53-33: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.0
+Apr16 20-53-33: # params 237446
+Apr16 20-54-02: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-54-02: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-54-02: Total 2110 nodes.
+Apr16 20-54-02: Total 9446 edges.
+Apr16 20-54-02: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.002, 'dropout_ratio': 0.1, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-54-05: Best valid model at epoch:  14, score_val: 0.7333, score_test: 0.7680
+Apr16 20-54-05: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.1
+Apr16 20-54-05: # params 237446
+Apr16 20-54-31: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-54-31: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-54-31: Total 2110 nodes.
+Apr16 20-54-31: Total 9446 edges.
+Apr16 20-54-31: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.002, 'dropout_ratio': 0.5, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-54-36: Best valid model at epoch:  36, score_val: 0.7333, score_test: 0.7630
+Apr16 20-54-36: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.5
+Apr16 20-54-36: # params 237446
+Apr16 20-55-06: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-55-06: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-55-06: Total 2110 nodes.
+Apr16 20-55-06: Total 9446 edges.
+Apr16 20-55-06: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.002, 'dropout_ratio': 0.8, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-55-11: Best valid model at epoch:  36, score_val: 0.7333, score_test: 0.7757
+Apr16 20-55-11: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr16 20-55-11: # params 237446
+Apr16 20-55-35: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-55-35: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-55-35: Total 2110 nodes.
+Apr16 20-55-35: Total 9446 edges.
+Apr16 20-55-35: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.002, 'dropout_ratio': 0.94, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-55-40: Best valid model at epoch:  57, score_val: 0.6722, score_test: 0.7862
+Apr16 20-55-40: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.94
+Apr16 20-55-40: # params 237446
+Apr16 20-55-59: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-55-59: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-55-59: Total 2110 nodes.
+Apr16 20-55-59: Total 9446 edges.
+Apr16 20-55-59: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.004, 'weight_decay': 0.001, 'dropout_ratio': 0.0, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-56-04: Best valid model at epoch:  33, score_val: 0.7389, score_test: 0.7597
+Apr16 20-56-04: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.0
+Apr16 20-56-04: # params 237446
+Apr16 20-56-24: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-56-24: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-56-25: Total 2110 nodes.
+Apr16 20-56-25: Total 9446 edges.
+Apr16 20-56-25: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.004, 'weight_decay': 0.001, 'dropout_ratio': 0.1, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-56-29: Best valid model at epoch:  22, score_val: 0.7389, score_test: 0.7624
+Apr16 20-56-29: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.1
+Apr16 20-56-29: # params 237446
+Apr16 20-56-47: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-56-47: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-56-48: Total 2110 nodes.
+Apr16 20-56-48: Total 9446 edges.
+Apr16 20-56-48: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.004, 'weight_decay': 0.001, 'dropout_ratio': 0.5, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-56-53: Best valid model at epoch:  56, score_val: 0.7389, score_test: 0.7729
+Apr16 20-56-53: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.5
+Apr16 20-56-53: # params 237446
+Apr16 20-57-16: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-57-16: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-57-16: Total 2110 nodes.
+Apr16 20-57-16: Total 9446 edges.
+Apr16 20-57-16: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.004, 'weight_decay': 0.001, 'dropout_ratio': 0.8, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-57-19: Best valid model at epoch:  10, score_val: 0.7278, score_test: 0.7724
+Apr16 20-57-19: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr16 20-57-19: # params 237446
+Apr16 20-57-47: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-57-47: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-57-47: Total 2110 nodes.
+Apr16 20-57-47: Total 9446 edges.
+Apr16 20-57-47: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.004, 'weight_decay': 0.001, 'dropout_ratio': 0.94, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-57-51: Best valid model at epoch:  28, score_val: 0.6667, score_test: 0.7713
+Apr16 20-57-51: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.94
+Apr16 20-57-51: # params 237446
+Apr16 20-58-14: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-58-14: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-58-14: Total 2110 nodes.
+Apr16 20-58-14: Total 9446 edges.
+Apr16 20-58-14: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.004, 'weight_decay': 0.002, 'dropout_ratio': 0.0, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-58-19: Best valid model at epoch:  35, score_val: 0.7389, score_test: 0.7657
+Apr16 20-58-19: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.0
+Apr16 20-58-19: # params 237446
+Apr16 20-58-43: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-58-43: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-58-43: Total 2110 nodes.
+Apr16 20-58-43: Total 9446 edges.
+Apr16 20-58-43: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.004, 'weight_decay': 0.002, 'dropout_ratio': 0.1, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-58-52: Best valid model at epoch:  97, score_val: 0.7333, score_test: 0.7646
+Apr16 20-58-52: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.1
+Apr16 20-58-52: # params 237446
+Apr16 20-59-30: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 20-59-30: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 20-59-30: Total 2110 nodes.
+Apr16 20-59-30: Total 9446 edges.
+Apr16 20-59-30: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.004, 'weight_decay': 0.002, 'dropout_ratio': 0.5, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 20-59-36: Best valid model at epoch:  47, score_val: 0.7389, score_test: 0.7663
+Apr16 20-59-36: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.5
+Apr16 20-59-36: # params 237446
+Apr16 21-00-15: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-00-15: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-00-15: Total 2110 nodes.
+Apr16 21-00-15: Total 9446 edges.
+Apr16 21-00-15: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.004, 'weight_decay': 0.002, 'dropout_ratio': 0.8, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-00-19: Best valid model at epoch:   8, score_val: 0.7222, score_test: 0.7862
+Apr16 21-00-19: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr16 21-00-19: # params 237446
+Apr16 21-00-54: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-00-54: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-00-54: Total 2110 nodes.
+Apr16 21-00-54: Total 9446 edges.
+Apr16 21-00-54: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.004, 'weight_decay': 0.002, 'dropout_ratio': 0.94, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-01-04: Best valid model at epoch:  99, score_val: 0.6722, score_test: 0.7884
+Apr16 21-01-04: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.94
+Apr16 21-01-04: # params 237446
+Apr16 21-48-39: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-48-39: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-48-39: Total 2110 nodes.
+Apr16 21-48-39: Total 9446 edges.
+Apr16 21-48-39: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-48-43: Best valid model at epoch:  36, score_val: 0.7278, score_test: 0.7724
+Apr16 21-48-43: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 21-48-43: # params 237446
+Apr16 21-49-13: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-49-13: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-49-13: Total 2110 nodes.
+Apr16 21-49-13: Total 9446 edges.
+Apr16 21-49-13: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-49-17: Best valid model at epoch:  36, score_val: 0.7278, score_test: 0.7724
+Apr16 21-49-17: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 21-49-17: # params 237446
+Apr16 21-49-46: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-49-46: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-49-46: Total 2110 nodes.
+Apr16 21-49-46: Total 9446 edges.
+Apr16 21-49-46: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-49-50: Best valid model at epoch:  29, score_val: 0.7333, score_test: 0.7751
+Apr16 21-49-50: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 21-49-50: # params 237446
+Apr16 21-50-18: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-50-18: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-50-18: Total 2110 nodes.
+Apr16 21-50-18: Total 9446 edges.
+Apr16 21-50-18: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-50-22: Best valid model at epoch:  31, score_val: 0.7333, score_test: 0.7796
+Apr16 21-50-22: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 21-50-22: # params 237446
+Apr16 21-50-47: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-50-47: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-50-47: Total 2110 nodes.
+Apr16 21-50-47: Total 9446 edges.
+Apr16 21-50-47: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-50-55: Best valid model at epoch:  94, score_val: 0.7278, score_test: 0.7735
+Apr16 21-50-55: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 21-50-55: # params 237446
+Apr16 21-51-17: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-51-17: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-51-17: Total 2110 nodes.
+Apr16 21-51-17: Total 9446 edges.
+Apr16 21-51-17: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-51-25: Best valid model at epoch:  98, score_val: 0.7222, score_test: 0.7729
+Apr16 21-51-25: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 21-51-25: # params 237446
+Apr16 21-51-51: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-51-51: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-51-51: Total 2110 nodes.
+Apr16 21-51-51: Total 9446 edges.
+Apr16 21-51-51: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-51-56: Best valid model at epoch:  40, score_val: 0.7167, score_test: 0.7917
+Apr16 21-51-56: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 21-51-56: # params 237446
+Apr16 21-52-23: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-52-23: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-52-23: Total 2110 nodes.
+Apr16 21-52-23: Total 9446 edges.
+Apr16 21-52-23: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0005, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-52-28: Best valid model at epoch:  45, score_val: 0.7333, score_test: 0.7735
+Apr16 21-52-28: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 21-52-28: # params 237446
+Apr16 21-52-56: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-52-56: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-52-56: Total 2110 nodes.
+Apr16 21-52-56: Total 9446 edges.
+Apr16 21-52-56: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0005, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-53-01: Best valid model at epoch:  36, score_val: 0.7333, score_test: 0.7740
+Apr16 21-53-01: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 21-53-01: # params 237446
+Apr16 21-53-23: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-53-23: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-53-23: Total 2110 nodes.
+Apr16 21-53-23: Total 9446 edges.
+Apr16 21-53-23: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0005, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-53-28: Best valid model at epoch:  38, score_val: 0.7333, score_test: 0.7779
+Apr16 21-53-28: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 21-53-28: # params 237446
+Apr16 21-53-53: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-53-53: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-53-53: Total 2110 nodes.
+Apr16 21-53-53: Total 9446 edges.
+Apr16 21-53-53: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0005, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-54-01: Best valid model at epoch:  98, score_val: 0.7278, score_test: 0.7757
+Apr16 21-54-01: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 21-54-01: # params 237446
+Apr16 21-54-36: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-54-36: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-54-36: Total 2110 nodes.
+Apr16 21-54-36: Total 9446 edges.
+Apr16 21-54-36: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0005, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-54-46: Best valid model at epoch:  110, score_val: 0.7111, score_test: 0.7785
+Apr16 21-54-46: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 21-54-46: # params 237446
+Apr16 21-55-10: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-55-10: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-55-10: Total 2110 nodes.
+Apr16 21-55-10: Total 9446 edges.
+Apr16 21-55-10: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0005, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-55-15: Best valid model at epoch:  43, score_val: 0.7056, score_test: 0.7851
+Apr16 21-55-15: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 21-55-15: # params 237446
+Apr16 21-55-43: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-55-43: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-55-43: Total 2110 nodes.
+Apr16 21-55-43: Total 9446 edges.
+Apr16 21-55-43: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.001, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-55-51: Best valid model at epoch:  89, score_val: 0.7333, score_test: 0.7713
+Apr16 21-55-51: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 21-55-51: # params 237446
+Apr16 21-56-27: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-56-27: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-56-27: Total 2110 nodes.
+Apr16 21-56-27: Total 9446 edges.
+Apr16 21-56-27: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.001, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-56-32: Best valid model at epoch:  46, score_val: 0.7333, score_test: 0.7713
+Apr16 21-56-32: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 21-56-32: # params 237446
+Apr16 21-56-58: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-56-58: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-56-58: Total 2110 nodes.
+Apr16 21-56-58: Total 9446 edges.
+Apr16 21-56-58: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.001, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-57-07: Best valid model at epoch:  101, score_val: 0.7278, score_test: 0.7773
+Apr16 21-57-07: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 21-57-07: # params 237446
+Apr16 21-57-36: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-57-36: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-57-36: Total 2110 nodes.
+Apr16 21-57-36: Total 9446 edges.
+Apr16 21-57-36: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.001, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-57-44: Best valid model at epoch:  96, score_val: 0.7222, score_test: 0.7796
+Apr16 21-57-44: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 21-57-44: # params 237446
+Apr16 21-58-17: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-58-17: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-58-17: Total 2110 nodes.
+Apr16 21-58-17: Total 9446 edges.
+Apr16 21-58-17: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.001, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-58-22: Best valid model at epoch:  50, score_val: 0.7056, score_test: 0.7845
+Apr16 21-58-22: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 21-58-22: # params 237446
+Apr16 21-58-51: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-58-51: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-58-51: Total 2110 nodes.
+Apr16 21-58-51: Total 9446 edges.
+Apr16 21-58-51: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.001, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-58-56: Best valid model at epoch:  45, score_val: 0.7000, score_test: 0.7851
+Apr16 21-58-56: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 21-58-56: # params 237446
+Apr16 21-59-19: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-59-19: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-59-19: Total 2110 nodes.
+Apr16 21-59-19: Total 9446 edges.
+Apr16 21-59-20: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.0, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-59-23: Best valid model at epoch:  19, score_val: 0.7278, score_test: 0.7740
+Apr16 21-59-23: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 21-59-23: # params 237446
+Apr16 21-59-49: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 21-59-49: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 21-59-49: Total 2110 nodes.
+Apr16 21-59-49: Total 9446 edges.
+Apr16 21-59-49: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.0, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 21-59-54: Best valid model at epoch:  40, score_val: 0.7278, score_test: 0.7707
+Apr16 21-59-54: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 21-59-54: # params 237446
+Apr16 22-00-18: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-00-18: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-00-18: Total 2110 nodes.
+Apr16 22-00-18: Total 9446 edges.
+Apr16 22-00-18: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.0, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-00-22: Best valid model at epoch:  31, score_val: 0.7278, score_test: 0.7768
+Apr16 22-00-22: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 22-00-22: # params 237446
+Apr16 22-00-47: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-00-47: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-00-47: Total 2110 nodes.
+Apr16 22-00-47: Total 9446 edges.
+Apr16 22-00-47: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.0, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-00-52: Best valid model at epoch:  40, score_val: 0.7222, score_test: 0.7801
+Apr16 22-00-52: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 22-00-52: # params 237446
+Apr16 22-01-13: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-01-13: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-01-14: Total 2110 nodes.
+Apr16 22-01-14: Total 9446 edges.
+Apr16 22-01-14: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.0, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-01-17: Best valid model at epoch:  30, score_val: 0.7111, score_test: 0.7823
+Apr16 22-01-17: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 22-01-18: # params 237446
+Apr16 22-01-41: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-01-41: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-01-41: Total 2110 nodes.
+Apr16 22-01-41: Total 9446 edges.
+Apr16 22-01-41: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.0, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-01-45: Best valid model at epoch:  31, score_val: 0.7222, score_test: 0.7867
+Apr16 22-01-45: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 22-01-45: # params 237446
+Apr16 22-02-10: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-02-10: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-02-10: Total 2110 nodes.
+Apr16 22-02-10: Total 9446 edges.
+Apr16 22-02-10: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.0005, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-02-15: Best valid model at epoch:  42, score_val: 0.7333, score_test: 0.7724
+Apr16 22-02-15: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 22-02-15: # params 237446
+Apr16 22-02-46: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-02-46: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-02-46: Total 2110 nodes.
+Apr16 22-02-46: Total 9446 edges.
+Apr16 22-02-46: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.0005, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-02-51: Best valid model at epoch:  41, score_val: 0.7333, score_test: 0.7735
+Apr16 22-02-51: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 22-02-51: # params 237446
+Apr16 22-03-20: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-03-20: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-03-20: Total 2110 nodes.
+Apr16 22-03-20: Total 9446 edges.
+Apr16 22-03-20: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.0005, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-03-24: Best valid model at epoch:  20, score_val: 0.7333, score_test: 0.7823
+Apr16 22-03-24: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 22-03-24: # params 237446
+Apr16 22-03-52: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-03-52: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-03-52: Total 2110 nodes.
+Apr16 22-03-52: Total 9446 edges.
+Apr16 22-03-52: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.0005, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-03-56: Best valid model at epoch:  18, score_val: 0.7278, score_test: 0.7807
+Apr16 22-03-56: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 22-03-56: # params 237446
+Apr16 22-04-23: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-04-23: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-04-23: Total 2110 nodes.
+Apr16 22-04-23: Total 9446 edges.
+Apr16 22-04-23: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.0005, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-04-28: Best valid model at epoch:  40, score_val: 0.7167, score_test: 0.7807
+Apr16 22-04-28: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 22-04-28: # params 237446
+Apr16 22-04-54: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-04-54: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-04-54: Total 2110 nodes.
+Apr16 22-04-54: Total 9446 edges.
+Apr16 22-04-54: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.0005, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-04-58: Best valid model at epoch:  26, score_val: 0.7056, score_test: 0.7895
+Apr16 22-04-58: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 22-04-58: # params 237446
+Apr16 22-05-21: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-05-21: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-05-21: Total 2110 nodes.
+Apr16 22-05-21: Total 9446 edges.
+Apr16 22-05-21: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.001, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-05-26: Best valid model at epoch:  42, score_val: 0.7333, score_test: 0.7729
+Apr16 22-05-26: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 22-05-26: # params 237446
+Apr16 22-05-50: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-05-50: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-05-50: Total 2110 nodes.
+Apr16 22-05-50: Total 9446 edges.
+Apr16 22-05-50: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.001, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-05-55: Best valid model at epoch:  41, score_val: 0.7278, score_test: 0.7768
+Apr16 22-05-55: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 22-05-55: # params 237446
+Apr16 22-06-20: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-06-20: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-06-20: Total 2110 nodes.
+Apr16 22-06-20: Total 9446 edges.
+Apr16 22-06-20: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.001, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-06-23: Best valid model at epoch:  23, score_val: 0.7222, score_test: 0.7790
+Apr16 22-06-23: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 22-06-23: # params 237446
+Apr16 22-06-50: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-06-50: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-06-50: Total 2110 nodes.
+Apr16 22-06-50: Total 9446 edges.
+Apr16 22-06-50: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.001, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-06-55: Best valid model at epoch:  40, score_val: 0.7167, score_test: 0.7796
+Apr16 22-06-55: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 22-06-55: # params 237446
+Apr16 22-07-28: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-07-28: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-07-28: Total 2110 nodes.
+Apr16 22-07-28: Total 9446 edges.
+Apr16 22-07-28: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.001, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-07-34: Best valid model at epoch:  44, score_val: 0.7056, score_test: 0.7851
+Apr16 22-07-34: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 22-07-34: # params 237446
+Apr16 22-08-00: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-08-00: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-08-00: Total 2110 nodes.
+Apr16 22-08-00: Total 9446 edges.
+Apr16 22-08-00: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0015, 'weight_decay': 0.001, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-08-04: Best valid model at epoch:  25, score_val: 0.7000, score_test: 0.7884
+Apr16 22-08-04: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 22-08-04: # params 237446
+Apr16 22-08-32: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-08-32: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-08-32: Total 2110 nodes.
+Apr16 22-08-32: Total 9446 edges.
+Apr16 22-08-32: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.0, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-08-36: Best valid model at epoch:  27, score_val: 0.7278, score_test: 0.7707
+Apr16 22-08-36: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 22-08-36: # params 237446
+Apr16 22-09-06: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-09-06: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-09-06: Total 2110 nodes.
+Apr16 22-09-06: Total 9446 edges.
+Apr16 22-09-06: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.0, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-09-10: Best valid model at epoch:  18, score_val: 0.7333, score_test: 0.7740
+Apr16 22-09-10: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 22-09-10: # params 237446
+Apr16 22-09-36: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-09-36: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-09-36: Total 2110 nodes.
+Apr16 22-09-36: Total 9446 edges.
+Apr16 22-09-36: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.0, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-09-40: Best valid model at epoch:  20, score_val: 0.7333, score_test: 0.7746
+Apr16 22-09-40: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 22-09-40: # params 237446
+Apr16 22-10-11: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-10-11: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-10-11: Total 2110 nodes.
+Apr16 22-10-11: Total 9446 edges.
+Apr16 22-10-11: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.0, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-10-16: Best valid model at epoch:  33, score_val: 0.7333, score_test: 0.7751
+Apr16 22-10-16: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 22-10-16: # params 237446
+Apr16 22-10-43: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-10-43: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-10-43: Total 2110 nodes.
+Apr16 22-10-43: Total 9446 edges.
+Apr16 22-10-43: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.0, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-10-48: Best valid model at epoch:  27, score_val: 0.7167, score_test: 0.7807
+Apr16 22-10-48: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 22-10-48: # params 237446
+Apr16 22-11-18: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-11-18: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-11-18: Total 2110 nodes.
+Apr16 22-11-18: Total 9446 edges.
+Apr16 22-11-18: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.0, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-11-25: Best valid model at epoch:  41, score_val: 0.7167, score_test: 0.7829
+Apr16 22-11-25: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 22-11-25: # params 237446
+Apr16 22-12-03: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-12-03: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-12-03: Total 2110 nodes.
+Apr16 22-12-03: Total 9446 edges.
+Apr16 22-12-03: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.0005, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-12-09: Best valid model at epoch:  39, score_val: 0.7333, score_test: 0.7713
+Apr16 22-12-10: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 22-12-10: # params 237446
+Apr16 22-12-45: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-12-45: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-12-45: Total 2110 nodes.
+Apr16 22-12-45: Total 9446 edges.
+Apr16 22-12-45: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.0005, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-12-54: Best valid model at epoch:  107, score_val: 0.7278, score_test: 0.7757
+Apr16 22-12-54: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 22-12-54: # params 237446
+Apr16 22-13-29: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-13-29: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-13-29: Total 2110 nodes.
+Apr16 22-13-29: Total 9446 edges.
+Apr16 22-13-29: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.0005, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-13-34: Best valid model at epoch:  36, score_val: 0.7278, score_test: 0.7757
+Apr16 22-13-34: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 22-13-34: # params 237446
+Apr16 22-14-00: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-14-00: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-14-00: Total 2110 nodes.
+Apr16 22-14-00: Total 9446 edges.
+Apr16 22-14-00: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.0005, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-14-04: Best valid model at epoch:  31, score_val: 0.7222, score_test: 0.7812
+Apr16 22-14-04: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 22-14-04: # params 237446
+Apr16 22-14-36: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-14-36: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-14-37: Total 2110 nodes.
+Apr16 22-14-37: Total 9446 edges.
+Apr16 22-14-37: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.0005, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-14-41: Best valid model at epoch:  15, score_val: 0.7111, score_test: 0.7867
+Apr16 22-14-41: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 22-14-41: # params 237446
+Apr16 22-15-14: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-15-14: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-15-14: Total 2110 nodes.
+Apr16 22-15-14: Total 9446 edges.
+Apr16 22-15-14: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.0005, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-15-18: Best valid model at epoch:  18, score_val: 0.7111, score_test: 0.7895
+Apr16 22-15-18: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 22-15-18: # params 237446
+Apr16 22-15-52: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-15-52: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-15-52: Total 2110 nodes.
+Apr16 22-15-52: Total 9446 edges.
+Apr16 22-15-52: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.001, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-15-57: Best valid model at epoch:  40, score_val: 0.7333, score_test: 0.7785
+Apr16 22-15-57: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 22-15-57: # params 237446
+Apr16 22-16-36: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-16-36: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-16-36: Total 2110 nodes.
+Apr16 22-16-36: Total 9446 edges.
+Apr16 22-16-36: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.001, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-16-44: Best valid model at epoch:  56, score_val: 0.7222, score_test: 0.7751
+Apr16 22-16-44: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 22-16-44: # params 237446
+Apr16 22-17-19: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-17-19: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-17-20: Total 2110 nodes.
+Apr16 22-17-20: Total 9446 edges.
+Apr16 22-17-20: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.001, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-17-24: Best valid model at epoch:  19, score_val: 0.7278, score_test: 0.7812
+Apr16 22-17-24: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 22-17-24: # params 237446
+Apr16 22-17-53: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-17-53: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-17-53: Total 2110 nodes.
+Apr16 22-17-53: Total 9446 edges.
+Apr16 22-17-53: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.001, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-17-57: Best valid model at epoch:  19, score_val: 0.7167, score_test: 0.7840
+Apr16 22-17-57: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 22-17-57: # params 237446
+Apr16 22-18-32: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-18-32: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-18-32: Total 2110 nodes.
+Apr16 22-18-32: Total 9446 edges.
+Apr16 22-18-32: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.001, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-18-36: Best valid model at epoch:  16, score_val: 0.7056, score_test: 0.7901
+Apr16 22-18-36: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 22-18-36: # params 237446
+Apr16 22-19-07: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-19-07: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-19-07: Total 2110 nodes.
+Apr16 22-19-07: Total 9446 edges.
+Apr16 22-19-07: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.001, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-19-11: Best valid model at epoch:  21, score_val: 0.7056, score_test: 0.7856
+Apr16 22-19-11: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 22-19-11: # params 237446
+Apr16 22-19-46: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-19-46: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-19-46: Total 2110 nodes.
+Apr16 22-19-46: Total 9446 edges.
+Apr16 22-19-46: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.0, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-19-50: Best valid model at epoch:  15, score_val: 0.7278, score_test: 0.7718
+Apr16 22-19-50: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 22-19-50: # params 237446
+Apr16 22-20-26: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-20-26: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-20-26: Total 2110 nodes.
+Apr16 22-20-26: Total 9446 edges.
+Apr16 22-20-26: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.0, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-20-31: Best valid model at epoch:  27, score_val: 0.7278, score_test: 0.7762
+Apr16 22-20-31: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 22-20-31: # params 237446
+Apr16 22-21-00: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-21-00: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-21-00: Total 2110 nodes.
+Apr16 22-21-00: Total 9446 edges.
+Apr16 22-21-00: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.0, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-21-05: Best valid model at epoch:  28, score_val: 0.7278, score_test: 0.7790
+Apr16 22-21-05: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 22-21-05: # params 237446
+Apr16 22-21-34: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-21-34: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-21-34: Total 2110 nodes.
+Apr16 22-21-34: Total 9446 edges.
+Apr16 22-21-34: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.0, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-21-39: Best valid model at epoch:  31, score_val: 0.7278, score_test: 0.7812
+Apr16 22-21-39: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 22-21-39: # params 237446
+Apr16 22-22-13: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-22-13: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-22-14: Total 2110 nodes.
+Apr16 22-22-14: Total 9446 edges.
+Apr16 22-22-14: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.0, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-22-18: Best valid model at epoch:  20, score_val: 0.7111, score_test: 0.7807
+Apr16 22-22-18: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 22-22-18: # params 237446
+Apr16 22-22-51: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-22-51: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-22-51: Total 2110 nodes.
+Apr16 22-22-51: Total 9446 edges.
+Apr16 22-22-51: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.0, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-22-56: Best valid model at epoch:  37, score_val: 0.7056, score_test: 0.7768
+Apr16 22-22-56: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 22-22-56: # params 237446
+Apr16 22-23-20: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-23-20: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-23-20: Total 2110 nodes.
+Apr16 22-23-20: Total 9446 edges.
+Apr16 22-23-20: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.0005, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-23-25: Best valid model at epoch:  45, score_val: 0.7278, score_test: 0.7724
+Apr16 22-23-25: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 22-23-25: # params 237446
+Apr16 22-24-02: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-24-02: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-24-02: Total 2110 nodes.
+Apr16 22-24-02: Total 9446 edges.
+Apr16 22-24-02: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.0005, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-24-07: Best valid model at epoch:  31, score_val: 0.7278, score_test: 0.7768
+Apr16 22-24-07: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 22-24-07: # params 237446
+Apr16 22-24-48: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-24-48: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-24-48: Total 2110 nodes.
+Apr16 22-24-48: Total 9446 edges.
+Apr16 22-24-48: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.0005, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-24-55: Best valid model at epoch:  69, score_val: 0.7222, score_test: 0.7729
+Apr16 22-24-55: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 22-24-55: # params 237446
+Apr16 22-25-30: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-25-30: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-25-30: Total 2110 nodes.
+Apr16 22-25-30: Total 9446 edges.
+Apr16 22-25-30: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.0005, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-25-36: Best valid model at epoch:  42, score_val: 0.7222, score_test: 0.7746
+Apr16 22-25-36: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 22-25-36: # params 237446
+Apr16 22-26-07: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-26-07: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-26-07: Total 2110 nodes.
+Apr16 22-26-07: Total 9446 edges.
+Apr16 22-26-07: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.0005, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-26-11: Best valid model at epoch:  19, score_val: 0.7111, score_test: 0.7823
+Apr16 22-26-11: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 22-26-11: # params 237446
+Apr16 22-26-49: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-26-49: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-26-49: Total 2110 nodes.
+Apr16 22-26-49: Total 9446 edges.
+Apr16 22-26-49: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.0005, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-26-53: Best valid model at epoch:  14, score_val: 0.7056, score_test: 0.7878
+Apr16 22-26-53: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 22-26-53: # params 237446
+Apr16 22-27-19: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-27-19: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-27-19: Total 2110 nodes.
+Apr16 22-27-19: Total 9446 edges.
+Apr16 22-27-19: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.001, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-27-24: Best valid model at epoch:  40, score_val: 0.7333, score_test: 0.7740
+Apr16 22-27-24: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 22-27-24: # params 237446
+Apr16 22-28-01: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-28-01: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-28-02: Total 2110 nodes.
+Apr16 22-28-02: Total 9446 edges.
+Apr16 22-28-02: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.001, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-28-07: Best valid model at epoch:  30, score_val: 0.7278, score_test: 0.7818
+Apr16 22-28-07: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 22-28-07: # params 237446
+Apr16 22-28-30: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-28-30: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-28-30: Total 2110 nodes.
+Apr16 22-28-30: Total 9446 edges.
+Apr16 22-28-30: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.001, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-28-33: Best valid model at epoch:  18, score_val: 0.7222, score_test: 0.7807
+Apr16 22-28-33: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 22-28-33: # params 237446
+Apr16 22-29-07: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-29-07: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-29-07: Total 2110 nodes.
+Apr16 22-29-07: Total 9446 edges.
+Apr16 22-29-07: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.001, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-29-11: Best valid model at epoch:  18, score_val: 0.7222, score_test: 0.7840
+Apr16 22-29-11: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 22-29-11: # params 237446
+Apr16 22-29-52: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-29-52: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-29-52: Total 2110 nodes.
+Apr16 22-29-52: Total 9446 edges.
+Apr16 22-29-52: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.001, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-29-56: Best valid model at epoch:  19, score_val: 0.7056, score_test: 0.7851
+Apr16 22-29-56: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 22-29-56: # params 237446
+Apr16 22-30-26: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-30-26: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-30-26: Total 2110 nodes.
+Apr16 22-30-26: Total 9446 edges.
+Apr16 22-30-26: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0025, 'weight_decay': 0.001, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-30-32: Best valid model at epoch:  72, score_val: 0.6889, score_test: 0.7840
+Apr16 22-30-32: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 22-30-32: # params 237446
+Apr16 22-30-53: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-30-53: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-30-53: Total 2110 nodes.
+Apr16 22-30-53: Total 9446 edges.
+Apr16 22-30-53: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.0, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-30-57: Best valid model at epoch:  39, score_val: 0.7222, score_test: 0.7674
+Apr16 22-30-57: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 22-30-57: # params 237446
+Apr16 22-31-30: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-31-30: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-31-30: Total 2110 nodes.
+Apr16 22-31-30: Total 9446 edges.
+Apr16 22-31-30: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.0, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-31-34: Best valid model at epoch:  35, score_val: 0.7222, score_test: 0.7685
+Apr16 22-31-34: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 22-31-34: # params 237446
+Apr16 22-31-59: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-31-59: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-31-59: Total 2110 nodes.
+Apr16 22-31-59: Total 9446 edges.
+Apr16 22-31-59: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.0, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-32-03: Best valid model at epoch:  24, score_val: 0.7222, score_test: 0.7757
+Apr16 22-32-03: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 22-32-03: # params 237446
+Apr16 22-32-32: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-32-32: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-32-32: Total 2110 nodes.
+Apr16 22-32-32: Total 9446 edges.
+Apr16 22-32-32: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.0, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-32-38: Best valid model at epoch:  32, score_val: 0.7222, score_test: 0.7779
+Apr16 22-32-38: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 22-32-38: # params 237446
+Apr16 22-33-05: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-33-05: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-33-05: Total 2110 nodes.
+Apr16 22-33-05: Total 9446 edges.
+Apr16 22-33-05: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.0, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-33-09: Best valid model at epoch:  20, score_val: 0.7056, score_test: 0.7851
+Apr16 22-33-09: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 22-33-09: # params 237446
+Apr16 22-33-35: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-33-35: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-33-35: Total 2110 nodes.
+Apr16 22-33-35: Total 9446 edges.
+Apr16 22-33-36: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.0, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-33-40: Best valid model at epoch:  28, score_val: 0.7000, score_test: 0.7862
+Apr16 22-33-40: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 22-33-40: # params 237446
+Apr16 22-34-03: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-34-03: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-34-04: Total 2110 nodes.
+Apr16 22-34-04: Total 9446 edges.
+Apr16 22-34-04: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.0005, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-34-08: Best valid model at epoch:  40, score_val: 0.7222, score_test: 0.7702
+Apr16 22-34-08: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 22-34-08: # params 237446
+Apr16 22-34-41: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-34-41: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-34-41: Total 2110 nodes.
+Apr16 22-34-41: Total 9446 edges.
+Apr16 22-34-41: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.0005, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-34-46: Best valid model at epoch:  48, score_val: 0.7222, score_test: 0.7757
+Apr16 22-34-46: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 22-34-46: # params 237446
+Apr16 22-35-22: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-35-22: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-35-23: Total 2110 nodes.
+Apr16 22-35-23: Total 9446 edges.
+Apr16 22-35-23: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.0005, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-35-27: Best valid model at epoch:  24, score_val: 0.7278, score_test: 0.7790
+Apr16 22-35-27: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 22-35-27: # params 237446
+Apr16 22-35-56: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-35-56: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-35-56: Total 2110 nodes.
+Apr16 22-35-56: Total 9446 edges.
+Apr16 22-35-56: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.0005, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-36-01: Best valid model at epoch:  42, score_val: 0.7167, score_test: 0.7779
+Apr16 22-36-01: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 22-36-01: # params 237446
+Apr16 22-36-33: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-36-33: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-36-33: Total 2110 nodes.
+Apr16 22-36-33: Total 9446 edges.
+Apr16 22-36-33: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.0005, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-36-37: Best valid model at epoch:  19, score_val: 0.7000, score_test: 0.7845
+Apr16 22-36-37: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 22-36-37: # params 237446
+Apr16 22-37-03: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-37-03: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-37-03: Total 2110 nodes.
+Apr16 22-37-03: Total 9446 edges.
+Apr16 22-37-03: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.0005, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-37-06: Best valid model at epoch:  11, score_val: 0.6944, score_test: 0.7829
+Apr16 22-37-06: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 22-37-06: # params 237446
+Apr16 22-37-39: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-37-39: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-37-40: Total 2110 nodes.
+Apr16 22-37-40: Total 9446 edges.
+Apr16 22-37-40: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.001, 'dropout_ratio': 0.82, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-37-45: Best valid model at epoch:  38, score_val: 0.7278, score_test: 0.7735
+Apr16 22-37-45: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.82
+Apr16 22-37-45: # params 237446
+Apr16 22-38-16: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-38-16: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-38-16: Total 2110 nodes.
+Apr16 22-38-16: Total 9446 edges.
+Apr16 22-38-16: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.001, 'dropout_ratio': 0.84, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-38-20: Best valid model at epoch:  19, score_val: 0.7222, score_test: 0.7796
+Apr16 22-38-20: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.84
+Apr16 22-38-20: # params 237446
+Apr16 22-38-44: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-38-44: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-38-44: Total 2110 nodes.
+Apr16 22-38-44: Total 9446 edges.
+Apr16 22-38-44: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.001, 'dropout_ratio': 0.86, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-38-47: Best valid model at epoch:  18, score_val: 0.7222, score_test: 0.7845
+Apr16 22-38-47: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.86
+Apr16 22-38-47: # params 237446
+Apr16 22-39-11: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-39-11: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-39-12: Total 2110 nodes.
+Apr16 22-39-12: Total 9446 edges.
+Apr16 22-39-12: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.001, 'dropout_ratio': 0.88, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-39-17: Best valid model at epoch:  49, score_val: 0.7167, score_test: 0.7823
+Apr16 22-39-17: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.88
+Apr16 22-39-17: # params 237446
+Apr16 22-39-47: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-39-47: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-39-47: Total 2110 nodes.
+Apr16 22-39-47: Total 9446 edges.
+Apr16 22-39-47: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.001, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-39-50: Best valid model at epoch:  19, score_val: 0.7000, score_test: 0.7829
+Apr16 22-39-50: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 22-39-50: # params 237446
+Apr16 22-40-15: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1
+Apr16 22-40-15: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP/seed_1
+Apr16 22-40-15: Total 2110 nodes.
+Apr16 22-40-15: Total 9446 edges.
+Apr16 22-40-15: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.001, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/citeseer/APPNP_MLP/seed_1'), 'feat_dim': 3703, 'label_dim': 6}
+Apr16 22-40-18: Best valid model at epoch:  12, score_val: 0.6889, score_test: 0.7901
+Apr16 22-40-18: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 22-40-18: # params 237446

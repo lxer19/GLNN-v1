@@ -1,0 +1,408 @@
+Apr16 20-27-21: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 20-27-21: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 20-27-21: Total 19717 nodes.
+Apr16 20-27-21: Total 108365 edges.
+Apr16 20-27-21: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.1, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 20-27-40: Best valid model at epoch:  121, score_val: 0.7667, score_test: 0.7233
+Apr16 20-27-40: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.1
+Apr16 20-27-40: # params 32259
+Apr16 20-28-42: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 20-28-42: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 20-28-43: Total 19717 nodes.
+Apr16 20-28-43: Total 108365 edges.
+Apr16 20-28-43: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.2, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 20-29-02: Best valid model at epoch:  121, score_val: 0.7667, score_test: 0.7266
+Apr16 20-29-02: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.2
+Apr16 20-29-02: # params 32259
+Apr16 20-30-02: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 20-30-02: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 20-30-03: Total 19717 nodes.
+Apr16 20-30-03: Total 108365 edges.
+Apr16 20-30-03: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.3, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 20-30-15: Best valid model at epoch:  65, score_val: 0.7556, score_test: 0.7318
+Apr16 20-30-15: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.3
+Apr16 20-30-15: # params 32259
+Apr16 20-31-10: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 20-31-10: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 20-31-10: Total 19717 nodes.
+Apr16 20-31-10: Total 108365 edges.
+Apr16 20-31-10: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 20-31-31: Best valid model at epoch:  147, score_val: 0.7667, score_test: 0.7312
+Apr16 20-31-31: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 20-31-31: # params 32259
+Apr16 20-32-51: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 20-32-51: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 20-32-52: Total 19717 nodes.
+Apr16 20-32-52: Total 108365 edges.
+Apr16 20-32-52: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.5, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 20-33-11: Best valid model at epoch:  119, score_val: 0.7444, score_test: 0.7294
+Apr16 20-33-11: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.5
+Apr16 20-33-11: # params 32259
+Apr16 20-34-16: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 20-34-16: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 20-34-17: Total 19717 nodes.
+Apr16 20-34-17: Total 108365 edges.
+Apr16 20-34-17: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.6, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 20-34-39: Best valid model at epoch:  130, score_val: 0.7333, score_test: 0.7247
+Apr16 20-34-39: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.6
+Apr16 20-34-39: # params 32259
+Apr16 20-35-35: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 20-35-35: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 20-35-35: Total 19717 nodes.
+Apr16 20-35-35: Total 108365 edges.
+Apr16 20-35-35: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.7, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 20-35-58: Best valid model at epoch:  164, score_val: 0.7222, score_test: 0.7299
+Apr16 20-35-58: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.7
+Apr16 20-35-58: # params 32259
+Apr16 20-37-38: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 20-37-38: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 20-37-39: Total 19717 nodes.
+Apr16 20-37-39: Total 108365 edges.
+Apr16 20-37-39: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.8, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 20-37-57: Best valid model at epoch:  93, score_val: 0.7111, score_test: 0.7198
+Apr16 20-37-57: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr16 20-37-57: # params 32259
+Apr16 20-39-17: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 20-39-17: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 20-39-18: Total 19717 nodes.
+Apr16 20-39-18: Total 108365 edges.
+Apr16 20-39-18: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.9, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 20-39-27: Best valid model at epoch:  32, score_val: 0.7000, score_test: 0.7012
+Apr16 20-39-27: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.9
+Apr16 20-39-27: # params 32259
+Apr16 20-54-53: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 20-54-53: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 20-54-53: Total 19717 nodes.
+Apr16 20-54-53: Total 108365 edges.
+Apr16 20-54-53: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 20-55-19: Best valid model at epoch:  198, score_val: 0.7444, score_test: 0.7343
+Apr16 20-55-19: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 20-55-19: # params 32259
+Apr16 20-56-26: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 20-56-26: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 20-56-27: Total 19717 nodes.
+Apr16 20-56-27: Total 108365 edges.
+Apr16 20-56-27: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 20-56-52: Best valid model at epoch:  166, score_val: 0.7556, score_test: 0.7312
+Apr16 20-56-52: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 20-56-52: # params 32259
+Apr16 20-58-20: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 20-58-20: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 20-58-20: Total 19717 nodes.
+Apr16 20-58-20: Total 108365 edges.
+Apr16 20-58-20: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.003, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 20-58-45: Best valid model at epoch:  145, score_val: 0.7444, score_test: 0.7357
+Apr16 20-58-45: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 20-58-45: # params 32259
+Apr16 21-00-30: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-00-30: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-00-31: Total 19717 nodes.
+Apr16 21-00-31: Total 108365 edges.
+Apr16 21-00-31: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.004, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-00-48: Best valid model at epoch:  70, score_val: 0.7556, score_test: 0.7278
+Apr16 21-00-48: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-00-48: # params 32259
+Apr16 21-02-05: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-02-05: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-02-05: Total 19717 nodes.
+Apr16 21-02-05: Total 108365 edges.
+Apr16 21-02-05: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.005, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-02-27: Best valid model at epoch:  132, score_val: 0.7556, score_test: 0.7304
+Apr16 21-02-27: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-02-27: # params 32259
+Apr16 21-03-23: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-03-23: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-03-23: Total 19717 nodes.
+Apr16 21-03-23: Total 108365 edges.
+Apr16 21-03-23: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.006, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-03-43: Best valid model at epoch:  100, score_val: 0.7556, score_test: 0.7334
+Apr16 21-03-43: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-03-43: # params 32259
+Apr16 21-04-46: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-04-46: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-04-46: Total 19717 nodes.
+Apr16 21-04-46: Total 108365 edges.
+Apr16 21-04-46: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.007, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-05-08: Best valid model at epoch:  189, score_val: 0.7444, score_test: 0.7303
+Apr16 21-05-08: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-05-08: # params 32259
+Apr16 21-06-06: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-06-06: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-06-07: Total 19717 nodes.
+Apr16 21-06-07: Total 108365 edges.
+Apr16 21-06-07: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.008, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-06-25: Best valid model at epoch:  120, score_val: 0.7778, score_test: 0.7323
+Apr16 21-06-25: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-06-25: # params 32259
+Apr16 21-07-25: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-07-25: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-07-26: Total 19717 nodes.
+Apr16 21-07-26: Total 108365 edges.
+Apr16 21-07-26: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.009, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-07-39: Best valid model at epoch:  77, score_val: 0.7556, score_test: 0.7340
+Apr16 21-07-39: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-07-39: # params 32259
+Apr16 21-08-34: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-08-34: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-08-34: Total 19717 nodes.
+Apr16 21-08-34: Total 108365 edges.
+Apr16 21-08-34: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-08-56: Best valid model at epoch:  147, score_val: 0.7667, score_test: 0.7312
+Apr16 21-08-56: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-08-56: # params 32259
+Apr16 21-10-04: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-10-04: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-10-05: Total 19717 nodes.
+Apr16 21-10-05: Total 108365 edges.
+Apr16 21-10-05: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.011, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-10-25: Best valid model at epoch:  142, score_val: 0.7556, score_test: 0.7330
+Apr16 21-10-25: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-10-25: # params 32259
+Apr16 21-11-09: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-11-09: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-11-10: Total 19717 nodes.
+Apr16 21-11-10: Total 108365 edges.
+Apr16 21-11-10: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.012, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-11-31: Best valid model at epoch:  142, score_val: 0.7556, score_test: 0.7300
+Apr16 21-11-31: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-11-31: # params 32259
+Apr16 21-12-39: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-12-39: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-12-40: Total 19717 nodes.
+Apr16 21-12-40: Total 108365 edges.
+Apr16 21-12-40: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.013, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-12-48: Best valid model at epoch:  23, score_val: 0.7444, score_test: 0.7339
+Apr16 21-12-48: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-12-48: # params 32259
+Apr16 21-14-06: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-14-06: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-14-06: Total 19717 nodes.
+Apr16 21-14-06: Total 108365 edges.
+Apr16 21-14-06: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.014, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-14-27: Best valid model at epoch:  138, score_val: 0.7556, score_test: 0.7346
+Apr16 21-14-27: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-14-27: # params 32259
+Apr16 21-24-12: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-24-12: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-24-13: Total 19717 nodes.
+Apr16 21-24-13: Total 108365 edges.
+Apr16 21-24-13: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.009, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-24-26: Best valid model at epoch:  77, score_val: 0.7556, score_test: 0.7340
+Apr16 21-24-26: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-24-26: # params 32259
+Apr16 21-25-33: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-25-33: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-25-33: Total 19717 nodes.
+Apr16 21-25-33: Total 108365 edges.
+Apr16 21-25-33: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.009, 'weight_decay': 0.0001, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-25-55: Best valid model at epoch:  71, score_val: 0.7222, score_test: 0.7255
+Apr16 21-25-55: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-25-55: # params 32259
+Apr16 21-27-06: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-27-06: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-27-07: Total 19717 nodes.
+Apr16 21-27-07: Total 108365 edges.
+Apr16 21-27-07: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.009, 'weight_decay': 0.0002, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-27-41: Best valid model at epoch:  174, score_val: 0.7222, score_test: 0.7225
+Apr16 21-27-41: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-27-41: # params 32259
+Apr16 21-28-44: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-28-44: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-28-45: Total 19717 nodes.
+Apr16 21-28-45: Total 108365 edges.
+Apr16 21-28-45: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.009, 'weight_decay': 0.0003, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-28-59: Best valid model at epoch:  65, score_val: 0.7222, score_test: 0.7144
+Apr16 21-28-59: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-28-59: # params 32259
+Apr16 21-30-01: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-30-01: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-30-02: Total 19717 nodes.
+Apr16 21-30-02: Total 108365 edges.
+Apr16 21-30-02: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.009, 'weight_decay': 0.0004, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-30-10: Best valid model at epoch:  29, score_val: 0.7222, score_test: 0.7214
+Apr16 21-30-10: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-30-10: # params 32259
+Apr16 21-31-11: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-31-11: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-31-12: Total 19717 nodes.
+Apr16 21-31-12: Total 108365 edges.
+Apr16 21-31-12: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.009, 'weight_decay': 0.0005, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-31-24: Best valid model at epoch:  61, score_val: 0.7333, score_test: 0.7183
+Apr16 21-31-24: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-31-24: # params 32259
+Apr16 21-32-27: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-32-27: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-32-27: Total 19717 nodes.
+Apr16 21-32-27: Total 108365 edges.
+Apr16 21-32-27: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-32-48: Best valid model at epoch:  147, score_val: 0.7667, score_test: 0.7312
+Apr16 21-32-48: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-32-48: # params 32259
+Apr16 21-34-19: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-34-19: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-34-19: Total 19717 nodes.
+Apr16 21-34-19: Total 108365 edges.
+Apr16 21-34-19: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0001, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-34-31: Best valid model at epoch:  15, score_val: 0.7222, score_test: 0.7238
+Apr16 21-34-31: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-34-31: # params 32259
+Apr16 21-35-35: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-35-35: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-35-36: Total 19717 nodes.
+Apr16 21-35-36: Total 108365 edges.
+Apr16 21-35-36: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0002, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-35-54: Best valid model at epoch:  94, score_val: 0.7222, score_test: 0.7189
+Apr16 21-35-54: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-35-54: # params 32259
+Apr16 21-36-59: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-36-59: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-37-00: Total 19717 nodes.
+Apr16 21-37-00: Total 108365 edges.
+Apr16 21-37-00: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0003, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-37-07: Best valid model at epoch:  16, score_val: 0.7222, score_test: 0.7200
+Apr16 21-37-07: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-37-07: # params 32259
+Apr16 21-38-25: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-38-25: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-38-26: Total 19717 nodes.
+Apr16 21-38-26: Total 108365 edges.
+Apr16 21-38-26: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0004, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-38-43: Best valid model at epoch:  111, score_val: 0.7333, score_test: 0.7203
+Apr16 21-38-43: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-38-43: # params 32259
+Apr16 21-39-55: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-39-55: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-39-56: Total 19717 nodes.
+Apr16 21-39-56: Total 108365 edges.
+Apr16 21-39-56: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0005, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-40-03: Best valid model at epoch:   6, score_val: 0.7222, score_test: 0.7170
+Apr16 21-40-03: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-40-03: # params 32259
+Apr16 21-41-14: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-41-14: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-41-14: Total 19717 nodes.
+Apr16 21-41-14: Total 108365 edges.
+Apr16 21-41-14: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.011, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-41-34: Best valid model at epoch:  142, score_val: 0.7556, score_test: 0.7330
+Apr16 21-41-34: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-41-34: # params 32259
+Apr16 21-43-32: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-43-32: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-43-32: Total 19717 nodes.
+Apr16 21-43-32: Total 108365 edges.
+Apr16 21-43-32: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.011, 'weight_decay': 0.0001, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-44-12: Best valid model at epoch:  169, score_val: 0.7333, score_test: 0.7209
+Apr16 21-44-12: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-44-12: # params 32259
+Apr16 21-45-11: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-45-11: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-45-12: Total 19717 nodes.
+Apr16 21-45-12: Total 108365 edges.
+Apr16 21-45-12: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.011, 'weight_decay': 0.0002, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-45-19: Best valid model at epoch:  15, score_val: 0.7333, score_test: 0.7225
+Apr16 21-45-19: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-45-19: # params 32259
+Apr16 21-46-29: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-46-29: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-46-30: Total 19717 nodes.
+Apr16 21-46-30: Total 108365 edges.
+Apr16 21-46-30: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.011, 'weight_decay': 0.0003, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-46-43: Best valid model at epoch:  61, score_val: 0.7333, score_test: 0.7217
+Apr16 21-46-43: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-46-43: # params 32259
+Apr16 21-47-38: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-47-38: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-47-39: Total 19717 nodes.
+Apr16 21-47-39: Total 108365 edges.
+Apr16 21-47-39: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.011, 'weight_decay': 0.0004, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-47-53: Best valid model at epoch:  75, score_val: 0.7222, score_test: 0.7205
+Apr16 21-47-53: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-47-53: # params 32259
+Apr16 21-48-55: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 21-48-55: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 21-48-55: Total 19717 nodes.
+Apr16 21-48-55: Total 108365 edges.
+Apr16 21-48-55: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.011, 'weight_decay': 0.0005, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-49-01: Best valid model at epoch:   6, score_val: 0.7222, score_test: 0.7117
+Apr16 21-49-01: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 21-49-01: # params 32259
+Apr16 22-11-45: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 22-11-45: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 22-11-46: Total 19717 nodes.
+Apr16 22-11-46: Total 108365 edges.
+Apr16 22-11-46: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.35, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-12-01: Best valid model at epoch:  50, score_val: 0.7667, score_test: 0.7293
+Apr16 22-12-01: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.35
+Apr16 22-12-01: # params 32259
+Apr16 22-13-24: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 22-13-24: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 22-13-25: Total 19717 nodes.
+Apr16 22-13-25: Total 108365 edges.
+Apr16 22-13-25: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.36, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-13-53: Best valid model at epoch:  174, score_val: 0.7556, score_test: 0.7294
+Apr16 22-13-53: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.36
+Apr16 22-13-53: # params 32259
+Apr16 22-14-57: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 22-14-57: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 22-14-58: Total 19717 nodes.
+Apr16 22-14-58: Total 108365 edges.
+Apr16 22-14-58: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.37, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-15-24: Best valid model at epoch:  129, score_val: 0.7556, score_test: 0.7300
+Apr16 22-15-24: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.37
+Apr16 22-15-24: # params 32259
+Apr16 22-16-13: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 22-16-13: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 22-16-14: Total 19717 nodes.
+Apr16 22-16-14: Total 108365 edges.
+Apr16 22-16-14: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.38, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-16-45: Best valid model at epoch:  122, score_val: 0.7667, score_test: 0.7270
+Apr16 22-16-45: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.38
+Apr16 22-16-45: # params 32259
+Apr16 22-18-12: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 22-18-12: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 22-18-13: Total 19717 nodes.
+Apr16 22-18-13: Total 108365 edges.
+Apr16 22-18-13: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.39, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-18-40: Best valid model at epoch:  140, score_val: 0.7556, score_test: 0.7281
+Apr16 22-18-40: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.39
+Apr16 22-18-40: # params 32259
+Apr16 22-20-05: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 22-20-05: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 22-20-06: Total 19717 nodes.
+Apr16 22-20-06: Total 108365 edges.
+Apr16 22-20-06: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-20-38: Best valid model at epoch:  147, score_val: 0.7667, score_test: 0.7312
+Apr16 22-20-38: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 22-20-38: # params 32259
+Apr16 22-22-15: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 22-22-15: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 22-22-16: Total 19717 nodes.
+Apr16 22-22-16: Total 108365 edges.
+Apr16 22-22-16: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.41, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-22-34: Best valid model at epoch:  69, score_val: 0.7556, score_test: 0.7241
+Apr16 22-22-34: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.41
+Apr16 22-22-34: # params 32259
+Apr16 22-23-47: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 22-23-47: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 22-23-48: Total 19717 nodes.
+Apr16 22-23-48: Total 108365 edges.
+Apr16 22-23-48: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.42, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-24-21: Best valid model at epoch:  159, score_val: 0.7667, score_test: 0.7289
+Apr16 22-24-21: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.42
+Apr16 22-24-21: # params 32259
+Apr16 22-25-56: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 22-25-56: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 22-25-57: Total 19717 nodes.
+Apr16 22-25-57: Total 108365 edges.
+Apr16 22-25-57: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.43, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-26-24: Best valid model at epoch:  141, score_val: 0.7556, score_test: 0.7330
+Apr16 22-26-24: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.43
+Apr16 22-26-24: # params 32259
+Apr16 22-27-46: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3
+Apr16 22-27-46: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT/seed_3
+Apr16 22-27-47: Total 19717 nodes.
+Apr16 22-27-47: Total 108365 edges.
+Apr16 22-27-47: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0, 'dropout_ratio': 0.44, 'model_name': 'MLP', 'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/GAT_MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-28-12: Best valid model at epoch:  115, score_val: 0.7444, score_test: 0.7281
+Apr16 22-28-12: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.44
+Apr16 22-28-12: # params 32259

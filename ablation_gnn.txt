@@ -1,0 +1,4 @@
+Teacher
+  tran
+   GCN
+  citeseer	

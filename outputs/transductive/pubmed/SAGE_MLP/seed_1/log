@@ -1,0 +1,592 @@
+Apr16 20-54-59: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 20-54-59: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 20-55-00: Total 19717 nodes.
+Apr16 20-55-00: Total 108365 edges.
+Apr16 20-55-00: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.001, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 20-55-40: Best valid model at epoch:  196, score_val: 0.8333, score_test: 0.7653
+Apr16 20-55-40: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 20-55-40: # params 32259
+Apr16 20-57-52: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 20-57-52: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 20-57-53: Total 19717 nodes.
+Apr16 20-57-53: Total 108365 edges.
+Apr16 20-57-53: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.002, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 20-58-26: Best valid model at epoch:  198, score_val: 0.8333, score_test: 0.7646
+Apr16 20-58-26: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 20-58-26: # params 32259
+Apr16 21-01-08: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 21-01-08: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 21-01-09: Total 19717 nodes.
+Apr16 21-01-09: Total 108365 edges.
+Apr16 21-01-09: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.003, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-01-39: Best valid model at epoch:  111, score_val: 0.8333, score_test: 0.7609
+Apr16 21-01-39: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 21-01-39: # params 32259
+Apr16 21-03-33: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 21-03-33: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 21-03-34: Total 19717 nodes.
+Apr16 21-03-34: Total 108365 edges.
+Apr16 21-03-34: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.004, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-04-00: Best valid model at epoch:  198, score_val: 0.8222, score_test: 0.7534
+Apr16 21-04-00: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 21-04-00: # params 32259
+Apr16 21-05-42: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 21-05-42: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 21-05-43: Total 19717 nodes.
+Apr16 21-05-43: Total 108365 edges.
+Apr16 21-05-43: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.006, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-06-02: Best valid model at epoch:  75, score_val: 0.8000, score_test: 0.7199
+Apr16 21-06-02: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 21-06-02: # params 32259
+Apr16 21-07-35: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 21-07-35: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 21-07-35: Total 19717 nodes.
+Apr16 21-07-35: Total 108365 edges.
+Apr16 21-07-35: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.007, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-07-56: Best valid model at epoch:  94, score_val: 0.7778, score_test: 0.7165
+Apr16 21-07-56: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 21-07-56: # params 32259
+Apr16 21-09-20: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 21-09-20: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 21-09-20: Total 19717 nodes.
+Apr16 21-09-20: Total 108365 edges.
+Apr16 21-09-20: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.001, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-09-47: Best valid model at epoch:  184, score_val: 0.8444, score_test: 0.7681
+Apr16 21-09-47: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 21-09-47: # params 32259
+Apr16 21-11-20: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 21-11-20: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 21-11-21: Total 19717 nodes.
+Apr16 21-11-21: Total 108365 edges.
+Apr16 21-11-21: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.002, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-11-44: Best valid model at epoch:  199, score_val: 0.8333, score_test: 0.7644
+Apr16 21-11-44: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 21-11-44: # params 32259
+Apr16 21-13-22: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 21-13-22: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 21-13-22: Total 19717 nodes.
+Apr16 21-13-22: Total 108365 edges.
+Apr16 21-13-22: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.003, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-13-43: Best valid model at epoch:  199, score_val: 0.8333, score_test: 0.7580
+Apr16 21-13-43: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 21-13-43: # params 32259
+Apr16 21-15-04: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 21-15-04: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 21-15-05: Total 19717 nodes.
+Apr16 21-15-05: Total 108365 edges.
+Apr16 21-15-05: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.004, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-15-17: Best valid model at epoch:  61, score_val: 0.8333, score_test: 0.7563
+Apr16 21-15-17: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 21-15-17: # params 32259
+Apr16 21-16-27: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 21-16-27: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 21-16-28: Total 19717 nodes.
+Apr16 21-16-28: Total 108365 edges.
+Apr16 21-16-28: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.006, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-16-51: Best valid model at epoch:  175, score_val: 0.7889, score_test: 0.7464
+Apr16 21-16-51: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 21-16-51: # params 32259
+Apr16 21-18-05: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 21-18-05: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 21-18-06: Total 19717 nodes.
+Apr16 21-18-06: Total 108365 edges.
+Apr16 21-18-06: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.002, 'weight_decay': 0.007, 'dropout_ratio': 0.92, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 21-18-13: Best valid model at epoch:  14, score_val: 0.7778, score_test: 0.7181
+Apr16 21-18-13: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.92
+Apr16 21-18-13: # params 32259
+Apr16 21-59-41: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 21-59-41: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 21-59-42: Total 19717 nodes.
+Apr16 21-59-42: Total 108365 edges.
+Apr16 21-59-42: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0001, 'dropout_ratio': 0.0, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-00-41: Best valid model at epoch:  170, score_val: 0.8556, score_test: 0.7672
+Apr16 22-00-41: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.0
+Apr16 22-00-41: # params 32259
+Apr16 22-04-11: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-04-11: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-04-11: Total 19717 nodes.
+Apr16 22-04-11: Total 108365 edges.
+Apr16 22-04-11: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0001, 'dropout_ratio': 0.2, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-04-40: Best valid model at epoch:  71, score_val: 0.8556, score_test: 0.7656
+Apr16 22-04-40: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.2
+Apr16 22-04-40: # params 32259
+Apr16 22-08-00: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-08-00: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-08-00: Total 19717 nodes.
+Apr16 22-08-00: Total 108365 edges.
+Apr16 22-08-00: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0001, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-08-44: Best valid model at epoch:  115, score_val: 0.8556, score_test: 0.7675
+Apr16 22-08-44: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 22-08-44: # params 32259
+Apr16 22-11-23: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-11-23: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-11-24: Total 19717 nodes.
+Apr16 22-11-24: Total 108365 edges.
+Apr16 22-11-24: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0001, 'dropout_ratio': 0.6, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-12-34: Best valid model at epoch:  115, score_val: 0.8667, score_test: 0.7682
+Apr16 22-12-34: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.6
+Apr16 22-12-34: # params 32259
+Apr16 22-15-22: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-15-22: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-15-23: Total 19717 nodes.
+Apr16 22-15-23: Total 108365 edges.
+Apr16 22-15-23: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0001, 'dropout_ratio': 0.8, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-16-45: Best valid model at epoch:  200, score_val: 0.8556, score_test: 0.7687
+Apr16 22-16-45: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr16 22-16-45: # params 32259
+Apr16 22-19-34: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-19-34: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-19-35: Total 19717 nodes.
+Apr16 22-19-35: Total 108365 edges.
+Apr16 22-19-35: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0005, 'dropout_ratio': 0.0, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-20-17: Best valid model at epoch:  199, score_val: 0.8333, score_test: 0.7667
+Apr16 22-20-17: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.0
+Apr16 22-20-17: # params 32259
+Apr16 22-22-45: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-22-45: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-22-46: Total 19717 nodes.
+Apr16 22-22-46: Total 108365 edges.
+Apr16 22-22-46: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0005, 'dropout_ratio': 0.2, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-23-31: Best valid model at epoch:  127, score_val: 0.8444, score_test: 0.7651
+Apr16 22-23-31: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.2
+Apr16 22-23-31: # params 32259
+Apr16 22-25-40: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-25-40: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-25-41: Total 19717 nodes.
+Apr16 22-25-41: Total 108365 edges.
+Apr16 22-25-41: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0005, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-26-04: Best valid model at epoch:  59, score_val: 0.8444, score_test: 0.7655
+Apr16 22-26-04: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 22-26-04: # params 32259
+Apr16 22-28-19: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-28-19: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-28-20: Total 19717 nodes.
+Apr16 22-28-20: Total 108365 edges.
+Apr16 22-28-20: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0005, 'dropout_ratio': 0.6, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-28-43: Best valid model at epoch:  45, score_val: 0.8444, score_test: 0.7638
+Apr16 22-28-43: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.6
+Apr16 22-28-43: # params 32259
+Apr16 22-30-27: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-30-27: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-30-28: Total 19717 nodes.
+Apr16 22-30-28: Total 108365 edges.
+Apr16 22-30-28: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.001, 'weight_decay': 0.0005, 'dropout_ratio': 0.8, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-31-06: Best valid model at epoch:  199, score_val: 0.8444, score_test: 0.7666
+Apr16 22-31-06: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr16 22-31-06: # params 32259
+Apr16 22-32-49: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-32-49: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-32-50: Total 19717 nodes.
+Apr16 22-32-50: Total 108365 edges.
+Apr16 22-32-50: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.005, 'weight_decay': 0.0001, 'dropout_ratio': 0.0, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-33-34: Best valid model at epoch:  177, score_val: 0.8556, score_test: 0.7741
+Apr16 22-33-34: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.0
+Apr16 22-33-34: # params 32259
+Apr16 22-34-55: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-34-55: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-34-56: Total 19717 nodes.
+Apr16 22-34-56: Total 108365 edges.
+Apr16 22-34-56: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.005, 'weight_decay': 0.0001, 'dropout_ratio': 0.2, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-35-19: Best valid model at epoch:  39, score_val: 0.8556, score_test: 0.7741
+Apr16 22-35-19: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.2
+Apr16 22-35-19: # params 32259
+Apr16 22-37-05: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-37-05: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-37-05: Total 19717 nodes.
+Apr16 22-37-05: Total 108365 edges.
+Apr16 22-37-05: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.005, 'weight_decay': 0.0001, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-37-27: Best valid model at epoch:  33, score_val: 0.8556, score_test: 0.7689
+Apr16 22-37-27: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 22-37-27: # params 32259
+Apr16 22-39-21: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-39-21: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-39-22: Total 19717 nodes.
+Apr16 22-39-22: Total 108365 edges.
+Apr16 22-39-22: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.005, 'weight_decay': 0.0001, 'dropout_ratio': 0.6, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-40-10: Best valid model at epoch:  136, score_val: 0.8556, score_test: 0.7680
+Apr16 22-40-10: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.6
+Apr16 22-40-10: # params 32259
+Apr16 22-41-50: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-41-50: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-41-51: Total 19717 nodes.
+Apr16 22-41-51: Total 108365 edges.
+Apr16 22-41-51: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.005, 'weight_decay': 0.0001, 'dropout_ratio': 0.8, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-42-32: Best valid model at epoch:  140, score_val: 0.8556, score_test: 0.7704
+Apr16 22-42-32: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr16 22-42-32: # params 32259
+Apr16 22-44-01: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-44-01: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-44-02: Total 19717 nodes.
+Apr16 22-44-02: Total 108365 edges.
+Apr16 22-44-02: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.005, 'weight_decay': 0.0005, 'dropout_ratio': 0.0, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-44-10: Best valid model at epoch:  17, score_val: 0.8556, score_test: 0.7631
+Apr16 22-44-10: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.0
+Apr16 22-44-10: # params 32259
+Apr16 22-45-46: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-45-46: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-45-47: Total 19717 nodes.
+Apr16 22-45-47: Total 108365 edges.
+Apr16 22-45-47: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.005, 'weight_decay': 0.0005, 'dropout_ratio': 0.2, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-45-57: Best valid model at epoch:  21, score_val: 0.8556, score_test: 0.7606
+Apr16 22-45-57: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.2
+Apr16 22-45-57: # params 32259
+Apr16 22-47-43: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-47-43: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-47-43: Total 19717 nodes.
+Apr16 22-47-43: Total 108365 edges.
+Apr16 22-47-44: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.005, 'weight_decay': 0.0005, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-48-18: Best valid model at epoch:  188, score_val: 0.8556, score_test: 0.7616
+Apr16 22-48-18: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 22-48-18: # params 32259
+Apr16 22-50-05: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-50-05: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-50-06: Total 19717 nodes.
+Apr16 22-50-06: Total 108365 edges.
+Apr16 22-50-06: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.005, 'weight_decay': 0.0005, 'dropout_ratio': 0.6, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-50-35: Best valid model at epoch:  176, score_val: 0.8556, score_test: 0.7607
+Apr16 22-50-35: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.6
+Apr16 22-50-35: # params 32259
+Apr16 22-52-08: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-52-08: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-52-09: Total 19717 nodes.
+Apr16 22-52-09: Total 108365 edges.
+Apr16 22-52-09: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.005, 'weight_decay': 0.0005, 'dropout_ratio': 0.8, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-52-23: Best valid model at epoch:  63, score_val: 0.8556, score_test: 0.7649
+Apr16 22-52-23: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr16 22-52-23: # params 32259
+Apr16 22-53-51: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-53-51: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-53-52: Total 19717 nodes.
+Apr16 22-53-52: Total 108365 edges.
+Apr16 22-53-52: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0001, 'dropout_ratio': 0.0, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-54-06: Best valid model at epoch:  42, score_val: 0.8556, score_test: 0.7612
+Apr16 22-54-06: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.0
+Apr16 22-54-06: # params 32259
+Apr16 22-56-45: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-56-45: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-56-46: Total 19717 nodes.
+Apr16 22-56-46: Total 108365 edges.
+Apr16 22-56-46: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0001, 'dropout_ratio': 0.2, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 22-57-29: Best valid model at epoch:  87, score_val: 0.8667, score_test: 0.7699
+Apr16 22-57-29: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.2
+Apr16 22-57-29: # params 32259
+Apr16 22-59-48: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 22-59-48: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 22-59-49: Total 19717 nodes.
+Apr16 22-59-49: Total 108365 edges.
+Apr16 22-59-49: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0001, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 23-00-18: Best valid model at epoch:  83, score_val: 0.8667, score_test: 0.7726
+Apr16 23-00-18: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 23-00-18: # params 32259
+Apr16 23-01-53: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 23-01-53: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 23-01-53: Total 19717 nodes.
+Apr16 23-01-53: Total 108365 edges.
+Apr16 23-01-53: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0001, 'dropout_ratio': 0.6, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 23-02-47: Best valid model at epoch:  169, score_val: 0.8667, score_test: 0.7633
+Apr16 23-02-47: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.6
+Apr16 23-02-47: # params 32259
+Apr16 23-04-16: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 23-04-16: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 23-04-16: Total 19717 nodes.
+Apr16 23-04-16: Total 108365 edges.
+Apr16 23-04-16: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0001, 'dropout_ratio': 0.8, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 23-04-48: Best valid model at epoch:  79, score_val: 0.8556, score_test: 0.7673
+Apr16 23-04-48: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr16 23-04-48: # params 32259
+Apr16 23-06-20: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 23-06-20: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 23-06-21: Total 19717 nodes.
+Apr16 23-06-21: Total 108365 edges.
+Apr16 23-06-21: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0005, 'dropout_ratio': 0.0, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 23-06-33: Best valid model at epoch:  49, score_val: 0.8556, score_test: 0.7572
+Apr16 23-06-33: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.0
+Apr16 23-06-33: # params 32259
+Apr16 23-08-22: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 23-08-22: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 23-08-23: Total 19717 nodes.
+Apr16 23-08-23: Total 108365 edges.
+Apr16 23-08-23: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0005, 'dropout_ratio': 0.2, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 23-08-29: Best valid model at epoch:   9, score_val: 0.8556, score_test: 0.7648
+Apr16 23-08-29: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.2
+Apr16 23-08-29: # params 32259
+Apr16 23-09-28: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 23-09-28: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 23-09-29: Total 19717 nodes.
+Apr16 23-09-29: Total 108365 edges.
+Apr16 23-09-29: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0005, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 23-09-38: Best valid model at epoch:  20, score_val: 0.8556, score_test: 0.7656
+Apr16 23-09-38: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr16 23-09-38: # params 32259
+Apr16 23-10-29: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 23-10-29: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 23-10-29: Total 19717 nodes.
+Apr16 23-10-29: Total 108365 edges.
+Apr16 23-10-29: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0005, 'dropout_ratio': 0.6, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 23-11-24: Best valid model at epoch:  95, score_val: 0.8667, score_test: 0.7652
+Apr16 23-11-24: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.6
+Apr16 23-11-24: # params 32259
+Apr16 23-12-59: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr16 23-12-59: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr16 23-13-00: Total 19717 nodes.
+Apr16 23-13-00: Total 108365 edges.
+Apr16 23-13-00: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.01, 'weight_decay': 0.0005, 'dropout_ratio': 0.8, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr16 23-13-22: Best valid model at epoch:  193, score_val: 0.8444, score_test: 0.7686
+Apr16 23-13-22: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr16 23-13-22: # params 32259
+Apr17 11-18-04: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-18-04: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-18-04: Total 19717 nodes.
+Apr17 11-18-04: Total 108365 edges.
+Apr17 11-18-04: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0, 'dropout_ratio': 0.3, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-18-23: Best valid model at epoch:  122, score_val: 0.8556, score_test: 0.7711
+Apr17 11-18-23: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.3
+Apr17 11-18-23: # params 32259
+Apr17 11-19-41: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-19-41: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-19-42: Total 19717 nodes.
+Apr17 11-19-42: Total 108365 edges.
+Apr17 11-19-42: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0, 'dropout_ratio': 0.32, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-20-01: Best valid model at epoch:  122, score_val: 0.8556, score_test: 0.7712
+Apr17 11-20-01: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.32
+Apr17 11-20-01: # params 32259
+Apr17 11-21-16: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-21-16: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-21-16: Total 19717 nodes.
+Apr17 11-21-16: Total 108365 edges.
+Apr17 11-21-16: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0, 'dropout_ratio': 0.34, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-21-27: Best valid model at epoch:  54, score_val: 0.8556, score_test: 0.7657
+Apr17 11-21-27: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.34
+Apr17 11-21-27: # params 32259
+Apr17 11-22-44: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-22-44: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-22-45: Total 19717 nodes.
+Apr17 11-22-45: Total 108365 edges.
+Apr17 11-22-45: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0, 'dropout_ratio': 0.36, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-23-03: Best valid model at epoch:  122, score_val: 0.8556, score_test: 0.7706
+Apr17 11-23-03: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.36
+Apr17 11-23-03: # params 32259
+Apr17 11-24-20: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-24-20: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-24-20: Total 19717 nodes.
+Apr17 11-24-20: Total 108365 edges.
+Apr17 11-24-20: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0, 'dropout_ratio': 0.38, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-24-38: Best valid model at epoch:  85, score_val: 0.8667, score_test: 0.7686
+Apr17 11-24-38: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.38
+Apr17 11-24-38: # params 32259
+Apr17 11-25-57: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-25-57: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-25-58: Total 19717 nodes.
+Apr17 11-25-58: Total 108365 edges.
+Apr17 11-25-58: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-26-12: Best valid model at epoch:  85, score_val: 0.8667, score_test: 0.7688
+Apr17 11-26-12: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr17 11-26-12: # params 32259
+Apr17 11-27-29: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-27-29: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-27-29: Total 19717 nodes.
+Apr17 11-27-29: Total 108365 edges.
+Apr17 11-27-29: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0, 'dropout_ratio': 0.42, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-27-44: Best valid model at epoch:  85, score_val: 0.8667, score_test: 0.7699
+Apr17 11-27-44: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.42
+Apr17 11-27-44: # params 32259
+Apr17 11-28-52: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-28-52: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-28-52: Total 19717 nodes.
+Apr17 11-28-52: Total 108365 edges.
+Apr17 11-28-52: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0, 'dropout_ratio': 0.44, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-29-14: Best valid model at epoch:  200, score_val: 0.8556, score_test: 0.7726
+Apr17 11-29-14: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.44
+Apr17 11-29-14: # params 32259
+Apr17 11-30-40: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-30-40: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-30-41: Total 19717 nodes.
+Apr17 11-30-41: Total 108365 edges.
+Apr17 11-30-41: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0, 'dropout_ratio': 0.46, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-30-55: Best valid model at epoch:  85, score_val: 0.8667, score_test: 0.7695
+Apr17 11-30-55: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.46
+Apr17 11-30-55: # params 32259
+Apr17 11-32-09: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-32-09: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-32-09: Total 19717 nodes.
+Apr17 11-32-09: Total 108365 edges.
+Apr17 11-32-09: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0, 'dropout_ratio': 0.48, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-32-31: Best valid model at epoch:  155, score_val: 0.8556, score_test: 0.7712
+Apr17 11-32-31: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.48
+Apr17 11-32-31: # params 32259
+Apr17 11-34-11: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-34-11: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-34-11: Total 19717 nodes.
+Apr17 11-34-11: Total 108365 edges.
+Apr17 11-34-11: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0001, 'dropout_ratio': 0.3, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-35-00: Best valid model at epoch:  118, score_val: 0.8556, score_test: 0.7668
+Apr17 11-35-00: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.3
+Apr17 11-35-00: # params 32259
+Apr17 11-38-05: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-38-05: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-38-05: Total 19717 nodes.
+Apr17 11-38-05: Total 108365 edges.
+Apr17 11-38-05: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0001, 'dropout_ratio': 0.32, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-39-04: Best valid model at epoch:  146, score_val: 0.8556, score_test: 0.7654
+Apr17 11-39-04: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.32
+Apr17 11-39-04: # params 32259
+Apr17 11-42-17: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-42-17: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-42-17: Total 19717 nodes.
+Apr17 11-42-17: Total 108365 edges.
+Apr17 11-42-17: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0001, 'dropout_ratio': 0.34, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-43-15: Best valid model at epoch:  146, score_val: 0.8556, score_test: 0.7660
+Apr17 11-43-15: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.34
+Apr17 11-43-15: # params 32259
+Apr17 11-45-48: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-45-48: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-45-48: Total 19717 nodes.
+Apr17 11-45-48: Total 108365 edges.
+Apr17 11-45-48: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0001, 'dropout_ratio': 0.36, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-46-32: Best valid model at epoch:  118, score_val: 0.8556, score_test: 0.7669
+Apr17 11-46-32: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.36
+Apr17 11-46-32: # params 32259
+Apr17 11-48-57: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-48-57: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-48-57: Total 19717 nodes.
+Apr17 11-48-57: Total 108365 edges.
+Apr17 11-48-57: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0001, 'dropout_ratio': 0.38, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-49-49: Best valid model at epoch:  168, score_val: 0.8556, score_test: 0.7712
+Apr17 11-49-49: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.38
+Apr17 11-49-49: # params 32259
+Apr17 11-52-20: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-52-20: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-52-21: Total 19717 nodes.
+Apr17 11-52-21: Total 108365 edges.
+Apr17 11-52-21: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0001, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-53-13: Best valid model at epoch:  146, score_val: 0.8556, score_test: 0.7670
+Apr17 11-53-13: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr17 11-53-13: # params 32259
+Apr17 11-55-35: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-55-35: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-55-35: Total 19717 nodes.
+Apr17 11-55-35: Total 108365 edges.
+Apr17 11-55-35: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0001, 'dropout_ratio': 0.42, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-56-22: Best valid model at epoch:  191, score_val: 0.8556, score_test: 0.7718
+Apr17 11-56-22: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.42
+Apr17 11-56-22: # params 32259
+Apr17 11-58-39: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 11-58-39: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 11-58-39: Total 19717 nodes.
+Apr17 11-58-39: Total 108365 edges.
+Apr17 11-58-39: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0001, 'dropout_ratio': 0.44, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 11-59-22: Best valid model at epoch:  128, score_val: 0.8556, score_test: 0.7686
+Apr17 11-59-22: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.44
+Apr17 11-59-22: # params 32259
+Apr17 12-01-38: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 12-01-38: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 12-01-38: Total 19717 nodes.
+Apr17 12-01-38: Total 108365 edges.
+Apr17 12-01-38: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0001, 'dropout_ratio': 0.46, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 12-02-36: Best valid model at epoch:  187, score_val: 0.8556, score_test: 0.7677
+Apr17 12-02-36: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.46
+Apr17 12-02-36: # params 32259
+Apr17 12-04-42: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 12-04-42: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 12-04-43: Total 19717 nodes.
+Apr17 12-04-43: Total 108365 edges.
+Apr17 12-04-43: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0001, 'dropout_ratio': 0.48, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 12-05-40: Best valid model at epoch:  175, score_val: 0.8556, score_test: 0.7716
+Apr17 12-05-40: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.48
+Apr17 12-05-40: # params 32259
+Apr17 12-07-58: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 12-07-58: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 12-07-59: Total 19717 nodes.
+Apr17 12-07-59: Total 108365 edges.
+Apr17 12-07-59: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0002, 'dropout_ratio': 0.3, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 12-08-46: Best valid model at epoch:  135, score_val: 0.8556, score_test: 0.7663
+Apr17 12-08-46: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.3
+Apr17 12-08-46: # params 32259
+Apr17 12-11-05: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 12-11-05: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 12-11-06: Total 19717 nodes.
+Apr17 12-11-06: Total 108365 edges.
+Apr17 12-11-06: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0002, 'dropout_ratio': 0.32, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 12-12-01: Best valid model at epoch:  194, score_val: 0.8444, score_test: 0.7668
+Apr17 12-12-01: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.32
+Apr17 12-12-01: # params 32259
+Apr17 12-14-13: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 12-14-13: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 12-14-14: Total 19717 nodes.
+Apr17 12-14-14: Total 108365 edges.
+Apr17 12-14-14: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0002, 'dropout_ratio': 0.34, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 12-15-03: Best valid model at epoch:  194, score_val: 0.8444, score_test: 0.7675
+Apr17 12-15-03: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.34
+Apr17 12-15-03: # params 32259
+Apr17 12-17-13: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 12-17-13: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 12-17-14: Total 19717 nodes.
+Apr17 12-17-14: Total 108365 edges.
+Apr17 12-17-14: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0002, 'dropout_ratio': 0.36, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 12-17-58: Best valid model at epoch:  188, score_val: 0.8556, score_test: 0.7654
+Apr17 12-17-58: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.36
+Apr17 12-17-58: # params 32259
+Apr17 12-40-15: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 12-40-15: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 12-40-16: Total 19717 nodes.
+Apr17 12-40-16: Total 108365 edges.
+Apr17 12-40-16: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0002, 'dropout_ratio': 0.38, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 12-41-16: Best valid model at epoch:  189, score_val: 0.8444, score_test: 0.7683
+Apr17 12-41-16: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.38
+Apr17 12-41-16: # params 32259
+Apr17 12-43-17: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 12-43-17: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 12-43-18: Total 19717 nodes.
+Apr17 12-43-18: Total 108365 edges.
+Apr17 12-43-18: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0002, 'dropout_ratio': 0.4, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 12-44-07: Best valid model at epoch:  189, score_val: 0.8444, score_test: 0.7681
+Apr17 12-44-07: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.4
+Apr17 12-44-07: # params 32259
+Apr17 12-46-22: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 12-46-22: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 12-46-23: Total 19717 nodes.
+Apr17 12-46-23: Total 108365 edges.
+Apr17 12-46-23: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0002, 'dropout_ratio': 0.42, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 12-47-22: Best valid model at epoch:  194, score_val: 0.8444, score_test: 0.7671
+Apr17 12-47-22: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.42
+Apr17 12-47-22: # params 32259
+Apr17 12-49-32: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 12-49-32: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 12-49-33: Total 19717 nodes.
+Apr17 12-49-33: Total 108365 edges.
+Apr17 12-49-33: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0002, 'dropout_ratio': 0.44, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 12-50-19: Best valid model at epoch:  108, score_val: 0.8556, score_test: 0.7663
+Apr17 12-50-19: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.44
+Apr17 12-50-19: # params 32259
+Apr17 12-52-26: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 12-52-26: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 12-52-27: Total 19717 nodes.
+Apr17 12-52-27: Total 108365 edges.
+Apr17 12-52-27: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0002, 'dropout_ratio': 0.46, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 12-53-24: Best valid model at epoch:  194, score_val: 0.8444, score_test: 0.7669
+Apr17 12-53-24: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.46
+Apr17 12-53-24: # params 32259
+Apr17 12-55-24: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 12-55-24: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 12-55-26: Total 19717 nodes.
+Apr17 12-55-26: Total 108365 edges.
+Apr17 12-55-26: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0008, 'weight_decay': 0.0002, 'dropout_ratio': 0.48, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 12-56-21: Best valid model at epoch:  135, score_val: 0.8556, score_test: 0.7672
+Apr17 12-56-21: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.48
+Apr17 12-56-21: # params 32259
+Apr17 12-58-22: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 12-58-22: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 12-58-23: Total 19717 nodes.
+Apr17 12-58-23: Total 108365 edges.
+Apr17 12-58-23: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0018, 'weight_decay': 0.0, 'dropout_ratio': 0.3, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 12-58-36: Best valid model at epoch:  43, score_val: 0.8556, score_test: 0.7691
+Apr17 12-58-36: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.3
+Apr17 12-58-36: # params 32259
+Apr17 12-59-49: output_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1
+Apr17 12-59-49: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE/seed_1
+Apr17 12-59-50: Total 19717 nodes.
+Apr17 12-59-50: Total 108365 edges.
+Apr17 12-59-50: conf: {'num_layers': 2, 'hidden_dim': 64, 'learning_rate': 0.0018, 'weight_decay': 0.0, 'dropout_ratio': 0.32, 'model_name': 'MLP', 'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'MLP', 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/graphless-neural-networks/outputs/transductive/pubmed/SAGE_MLP/seed_1'), 'feat_dim': 500, 'label_dim': 3}
+Apr17 13-00-04: Best valid model at epoch:  42, score_val: 0.8556, score_test: 0.7693
+Apr17 13-00-04: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.32
+Apr17 13-00-04: # params 32259
